@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9211306a43614d898c51211f0e0bfc06" Name="Diagram1">
+        <EntityTypeShape EntityType="BlockchainModel.AlımSatımGecmisi" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlockchainModel.BakiyeBilgi" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlockchainModel.KullanıcıKayıt" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlockchainModel.Odeme" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlockchainModel.ParaTürleri" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlockchainModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BlockchainModel.YöneticiKayıt" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <AssociationConnector Association="BlockchainModel.FK_AlımSatımGecmisi_AlımSatımGecmisi" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_AlımSatımGecmisi_KullanıcıKayıt" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_AlımSatımGecmisi_ParaTürleri" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_AlımSatımGecmisi_YöneticiKayıt" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_KullanıcıGiriş_KullanıcıGiriş" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_KullanıcıGiriş_KullanıcıGiriş1" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_Odeme_AlımSatımGecmisi" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_BakiyeBilgi_KullanıcıKayıt" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_BakiyeBilgi_ParaTürleri" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_BakiyeBilgi_YöneticiKayıt" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_YöneticiGiriş_YöneticiGiriş" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_YöneticiGiriş_YöneticiGiriş1" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_YöneticiGiriş_YöneticiGiriş2" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_YöneticiGiriş_YöneticiKayıt" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_Odeme_ParaTürleri" ManuallyRouted="false" />
+        <AssociationConnector Association="BlockchainModel.FK_YöneticiKayıt_YöneticiKayıt" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

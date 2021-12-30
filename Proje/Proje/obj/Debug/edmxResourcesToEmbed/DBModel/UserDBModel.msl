@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BlockchainModelStoreContainer" CdmEntityContainer="Blockchain">
+    <EntitySetMapping Name="AlımSatımGecmisi">
+      <EntityTypeMapping TypeName="BlockchainModel.AlımSatımGecmisi">
+        <MappingFragment StoreEntitySet="AlımSatımGecmisi">
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+          <ScalarProperty Name="ParaID" ColumnName="ParaID" />
+          <ScalarProperty Name="KullanilanTutar" ColumnName="KullanilanTutar" />
+          <ScalarProperty Name="KullanıcıID" ColumnName="KullanıcıID" />
+          <ScalarProperty Name="YöneticiID" ColumnName="YöneticiID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BakiyeBilgi">
+      <EntityTypeMapping TypeName="BlockchainModel.BakiyeBilgi">
+        <MappingFragment StoreEntitySet="BakiyeBilgi">
+          <ScalarProperty Name="BakiyeBilgi1" ColumnName="BakiyeBilgi" />
+          <ScalarProperty Name="CoinMiktar" ColumnName="CoinMiktar" />
+          <ScalarProperty Name="ParaID" ColumnName="ParaID" />
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="YöneticiID" ColumnName="YöneticiID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KullanıcıKayıt">
+      <EntityTypeMapping TypeName="BlockchainModel.KullanıcıKayıt">
+        <MappingFragment StoreEntitySet="KullanıcıKayıt">
+          <ScalarProperty Name="KullaniciID" ColumnName="KullaniciID" />
+          <ScalarProperty Name="KullaniciAd" ColumnName="KullaniciAd" />
+          <ScalarProperty Name="KullaniciSoyad" ColumnName="KullaniciSoyad" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="TcNo" ColumnName="TcNo" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Odeme">
+      <EntityTypeMapping TypeName="BlockchainModel.Odeme">
+        <MappingFragment StoreEntitySet="Odeme">
+          <ScalarProperty Name="OdemeID" ColumnName="OdemeID" />
+          <ScalarProperty Name="KrediKartNo" ColumnName="KrediKartNo" />
+          <ScalarProperty Name="ParaID" ColumnName="ParaID" />
+          <ScalarProperty Name="Tutar___" ColumnName="Tutar($)" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParaTürleri">
+      <EntityTypeMapping TypeName="BlockchainModel.ParaTürleri">
+        <MappingFragment StoreEntitySet="ParaTürleri">
+          <ScalarProperty Name="ParaID" ColumnName="ParaID" />
+          <ScalarProperty Name="ParaAD" ColumnName="ParaAD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="BlockchainModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="YöneticiKayıt">
+      <EntityTypeMapping TypeName="BlockchainModel.YöneticiKayıt">
+        <MappingFragment StoreEntitySet="YöneticiKayıt">
+          <ScalarProperty Name="YöneticiID" ColumnName="YöneticiID" />
+          <ScalarProperty Name="YoneticiAd" ColumnName="YoneticiAd" />
+          <ScalarProperty Name="YoneticiSoyad" ColumnName="YoneticiSoyad" />
+          <ScalarProperty Name="Eposta" ColumnName="Eposta" />
+          <ScalarProperty Name="YöneticiTcNo" ColumnName="YöneticiTcNo" />
+          <ScalarProperty Name="Sifre" ColumnName="Sifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
