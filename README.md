@@ -13,7 +13,7 @@
 - Oyun bitiminde puanların hesaplanması ve gösterilmesi durumu eksik.
 - Oyun kodları arasında kontrol için kullanılmış olan gereksiz olacak fonksiyon ve komutlar silinecek veya düzenlenecek(Oyun hedefleri tamamlandığında).
 
-# Konsol Üzerinde Oyunun Aşamaları Hakkında Görseller;
+# Konsol Üzerinde Oyunun Aşamaları Hakkında Görseller:
 
 # Deste oluşturuluyor:
 ![deste oluşturma](https://user-images.githubusercontent.com/84309668/181756832-87ec0841-81bb-48f2-ae32-383eae5e09f4.png)
