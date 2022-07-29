@@ -1,6 +1,6 @@
 # Java İle Bilgisayara Karsi Pisti Oyunu
 
-# Uygulama İçinde Çalışan Başarılı İşlemler;
+# Uygulama İçinde Çalışan Başarılı İşlemler:
 - Kartlar karıştırılır ve deste dağıtılır.
 - Kullanıcı ve bilgisayar için ellerinde olması gereken kartlar dağıtılır.
 - Oyuna kimin başlayacağına karar verilir.
@@ -9,7 +9,7 @@
 - Yerdeki kartlar karşılaştırılır ve kazanılma,pişti gibi durumlar kontrol edilir.
 - Puanlar ve kart değerleri kullanıcı ve bilgisayar için hafızada tutulur.
 
-# Uygulama İçinde Başarısız/Eksik Adımlar;
+# Uygulama İçinde Başarısız/Eksik Adımlar:
 - Oyun bitiminde puanların hesaplanması ve gösterilmesi durumu eksik.
 - Oyun kodları arasında kontrol için kullanılmış olan gereksiz olacak fonksiyon ve komutlar silinecek veya düzenlenecek(Oyun hedefleri tamamlandığında).
 
